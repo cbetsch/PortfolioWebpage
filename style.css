@@ -1,0 +1,114 @@
+html {
+	font-family: "Trebuchet MS";
+	background-color: lightblue
+}
+
+body {
+	height: 100%;
+}
+
+h1 {
+	background-color: navy;
+	color: white;
+	border-style: outset;
+	border-color: orange;
+	text-align: center;
+	margin: 10px 150px;
+}
+
+p {
+	text-align: center;
+	display: block;
+	margin: 10px 150px;
+}
+
+nav {
+  text-align: center;
+	background-color: navy;
+	color: white;
+	font-size: 1.5em;
+}
+
+img {
+	border-style: outset;
+	border-color: orange;
+	border-width: thick;
+	display: block;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	background-color: navy;
+	color: white;
+	font-size: 1.5em;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+  margin-left: -200px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+table, th, td {
+	border: 1px solid orange;
+	border-collapse: collapse;
+	margin: 5px;
+	font-size: 20px;
+}
+
+form.contact {
+	border: thick outset orange;
+	width: 250px;
+	margin: auto;
+	padding-bottom: 10px;
+	background-color: navy;
+	color: white;
+}
+
+a {
+	color: white;
+	background-color: navy;
+}
+
+a:hover {
+	color: black;
+	background-color: orange;
+}
+
+#email {
+	border: 1px solid orange;
+	width: 245px;
+	font-size: 20px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.center {
+	text-align: center;
+}
+
+#js {
+	display: block;
+	margin: auto;
+	border: thick outset orange;
+	width: 400px;
+	background-color: navy;
+	color: white;
+}
+
+#jsForm {
+	padding-bottom: 10px;
+}
+
+#jsData {
+	display: block;
+	text-align: left;
+	margin: auto;
+	padding-left: 5px;
+}
