@@ -78,6 +78,10 @@ a:hover {
 	background-color: orange;
 }
 
+a:active {
+	color: red;
+}
+
 #email {
 	border: 1px solid orange;
 	width: 245px;
